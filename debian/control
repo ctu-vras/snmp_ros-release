@@ -1,0 +1,12 @@
+Source: ros-noetic-snmp-ros
+Section: misc
+Priority: optional
+Maintainer: Martin Pecka <peckama2@fel.cvut.cz>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-snmp-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-pysnmp4, ros-noetic-rospy, ros-noetic-std-msgs
+Description: Utilities for working with SNMP from ROS
